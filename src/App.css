@@ -1,0 +1,65 @@
+* {
+  font-family: Arial;
+  }
+
+  .App {
+  text-align: center;
+  border: 1px solid black;
+  border-style: groove;
+  width: 35%;
+  margin: auto;
+  border-radius: 25px 25px;
+  margin-top: 2em;
+  background-image: linear-gradient(#26a0da, #314755);
+
+  /* padding-bottom: 2em; */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+#forgot {
+  font-size: 8px;
+  text-decoration: none;
+  text-align: left;
+  margin: 3px 0 0 0;
+}
+#username,
+#password {
+  height: 2em;
+  width: 14em;
+  background-color: white;
+  width: 90%;
+}
+#username:hover,
+#password:hover,
+.check-box:hover {
+  border: 2px solid #42aaf4;
+}
+label {
+  margin-top: .5em;
+  text-align: left;
+}
+#submit {
+  height: 70px;
+  width: 100%;
+  font-size: 25px;
+  background-image: linear-gradient(to bottom left, #f2768b, #f9accf);
+  border-radius: 0 0 25px 25px;
+}
+#submit:hover {
+  background-image: linear-gradient(to bottom right, #f2768b, #f9accf);
+}
+.title {
+  text-decoration: underline;
+  font-family: Arial;
+}
+.keep-signed-in {
+  font-size: 12px;
+}
+.check-box {
+  margin: 0 0 1em -3em;
+}
